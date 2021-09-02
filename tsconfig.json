@@ -11,10 +11,15 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-
-    
+    "forceConsistentCasingInFileNames": false,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["@types", "node_modules/@types"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["./src/"],
   "exclude": ["node_modules", "build"]
 }
