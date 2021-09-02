@@ -8,7 +8,6 @@ class Routes {
     }
 
     //TODO: Make default components
-
     public urlNotFound = (message?: string): void => {
         if (!message) {
             message = "URL NOT FOUND";
