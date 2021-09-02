@@ -1,6 +1,6 @@
 import contactController from '../controllers/contactController';
 import listController from '../controllers/listController';
-import Routes from '../utils/routes'
+import { Routes } from '../utils/routes'
 
 class ListRoutes extends Routes {
     constructor() {

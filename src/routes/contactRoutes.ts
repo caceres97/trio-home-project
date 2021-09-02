@@ -1,5 +1,5 @@
 import contactController from '../controllers/contactController';
-import Routes from '../utils/routes'
+import { Routes } from '../utils/routes'
 
 class ContactRoutes extends Routes {
     constructor() {
@@ -8,7 +8,6 @@ class ContactRoutes extends Routes {
         this.syncResources()
 
         //404 Error
-        // @ts-ignore
         this.urlNotFound()
     }
 
@@ -18,6 +17,5 @@ class ContactRoutes extends Routes {
     }
 }
 
-// @ts-ignore
 const contactRoutes = new ContactRoutes();
 export default contactRoutes.router

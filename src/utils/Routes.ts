@@ -19,4 +19,4 @@ class Routes {
     };
 }
 
-export default Routes;
+export { Routes };
