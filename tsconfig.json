@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "es6",
+    "module": "commonjs",
     "lib": ["es6"],
+    "entryFile": ["index.ts"],
     "allowJs": true,
     "outDir": "build",
     "rootDir": "src",
@@ -20,6 +21,6 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["@types", "node_modules/@types"]
   },
-  
+
   "exclude": ["node_modules", "build"]
 }
