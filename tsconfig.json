@@ -6,6 +6,7 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "removeComments": false,
+    "moduleResolution": "node",
     "preserveConstEnums": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
