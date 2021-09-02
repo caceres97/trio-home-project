@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "lib": ["es5", "es6", "es7"],
     "types": ["node"],
@@ -21,6 +21,6 @@
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["@types", "node_modules/@types"]
   },
-
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "build", ".vscode"]
 }

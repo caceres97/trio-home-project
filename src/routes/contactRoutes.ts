@@ -1,3 +1,4 @@
+// @ts-ignore
 import contactController from '../controllers/contactController';
 import Routes from '../utils/routes'
 
