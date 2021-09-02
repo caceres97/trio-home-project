@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "commonjs",
     "lib": ["es6"],
-    "entryFile": ["index.ts"],
+    "types": ["node"],
     "allowJs": true,
     "outDir": "build",
     "rootDir": "src",
@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": false,
     "noEmitOnError": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "removeComments": false,
     "moduleResolution": "node",
     "preserveConstEnums": true,
@@ -22,5 +22,5 @@
     "typeRoots": ["@types", "node_modules/@types"]
   },
 
-  "exclude": ["node_modules", "build"]
+  "exclude": ["node_modules", "build", ".vscode"]
 }
