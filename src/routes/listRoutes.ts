@@ -28,4 +28,4 @@ class ListRoutes extends Routes {
 }
 
 const listRoutes = new ListRoutes();
-export default listRoutes.router
+export default listRoutes.router as any
