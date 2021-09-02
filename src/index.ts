@@ -19,8 +19,6 @@ class Server {
     this.app.use(cors());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: false }));
-    // this.app.use(Middelwares.authVerificator)
-    //this.app.use(expressip().getIpInfoMiddleware);
   }
 
   routes(): void {
