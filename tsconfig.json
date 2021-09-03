@@ -5,7 +5,7 @@
     "lib": ["es5", "es6", "es7"],
     "types": ["node"],
     "allowJs": true,
-    "outDir": "build",
+    "outDir": "./build",
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": false,
