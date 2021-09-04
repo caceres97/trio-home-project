@@ -1,14 +1,16 @@
 import contactController from '../controllers/contactController';
-import { Routes } from '../utils/routes'
+// import { Routes } from '../utils/routes'
+import { Router } from "express";
 
-class ContactRoutes extends Routes {
+class ContactRoutes {
+
+    public router: Router = Router()
     constructor() {
-        super();
 
         this.syncResources()
 
         //404 Error
-        this.urlNotFound()
+        // this.urlNotFound()
     }
 
     // @ts-ignore
