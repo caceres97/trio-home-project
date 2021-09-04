@@ -1,4 +1,4 @@
-#Trio Home Project by [Ángel Cáceres](http://https://github.com/caceres97 "Ángel Cáceres")
+# Trio Home Project by [Ángel Cáceres](http://https://github.com/caceres97 "Ángel Cáceres")
 
 ## Features
 
@@ -19,4 +19,3 @@ Starting project:
 
 Build project: 
 `npm run build`
-
