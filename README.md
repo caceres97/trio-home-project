@@ -7,7 +7,7 @@
 - Get contacts from mailchimp list: 16dfebb33e
 - Sync mailchimp contacts to Sendgrid.
 
-**Postman info in [docs folder](http://https://github.com/caceres97/trio-home-project/tree/main/docs "docs folder")**
+**Postman info in [docs folder](https://github.com/caceres97/trio-home-project/tree/main/docs "docs folder")**
 
 **Setup Project** - After cloning project.
 
