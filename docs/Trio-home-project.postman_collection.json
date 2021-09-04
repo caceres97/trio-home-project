@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "b1905f69-0f5d-4bed-adb7-eae795f51314",
+		"name": "Trio-home-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get contacts from Mailchimp list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trio-home-project-7ihv6.ondigitalocean.app/lists/16dfebb33e/mcontacts",
+					"protocol": "https",
+					"host": [
+						"trio-home-project-7ihv6",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"lists",
+						"16dfebb33e",
+						"mcontacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get contacts from Sendgrid List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trio-home-project-7ihv6.ondigitalocean.app/lists/3d0aa94a-0e06-4276-b6d1-854317cfca6a/scontacts",
+					"protocol": "https",
+					"host": [
+						"trio-home-project-7ihv6",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"lists",
+						"3d0aa94a-0e06-4276-b6d1-854317cfca6a",
+						"scontacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email_address\": \"a@hotmail.com\",\n    \"full_name\": \"Alexander garcia\",\n    \"status\": \"subscribed\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trio-home-project-7ihv6.ondigitalocean.app/lists/16dfebb33e/contacts",
+					"protocol": "https",
+					"host": [
+						"trio-home-project-7ihv6",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"lists",
+						"16dfebb33e",
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sync Mailchimp Contacts to Sendgrid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://trio-home-project-7ihv6.ondigitalocean.app/contacts/sync",
+					"protocol": "https",
+					"host": [
+						"trio-home-project-7ihv6",
+						"ondigitalocean",
+						"app"
+					],
+					"path": [
+						"contacts",
+						"sync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
