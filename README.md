@@ -1,4 +1,4 @@
-# Trio Home Project by [Ángel Cáceres](http://https://github.com/caceres97 "Ángel Cáceres")
+# Trio Home Project by [Ángel Cáceres](https://github.com/caceres97 "Ángel Cáceres")
 
 ## Features
 
