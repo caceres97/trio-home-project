@@ -1,17 +1,20 @@
 import contactController from '../controllers/contactController';
 import listController from '../controllers/listController';
-import { Routes } from '../utils/routes'
+// import { Routes } from '../utils/routes'
+import { Router } from "express";
 
-class ListRoutes extends Routes {
+class ListRoutes
+// extends Routes 
+{
+    public router: Router = Router()
     constructor() {
-        super();
 
         this.getMailchimpListContacts()
         this.getSendgridListContacts()
         this.createContact()
 
         //404 Error
-        this.urlNotFound()
+        // this.urlNotFound()
     }
 
     public getMailchimpListContacts = (): void => {
