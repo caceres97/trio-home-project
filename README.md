@@ -8,6 +8,7 @@
 - Sync mailchimp contacts to Sendgrid.
 
 **Postman info in [docs folder](https://github.com/caceres97/trio-home-project/tree/main/docs "docs folder")**
+**Technical Design in [Link](https://docs.google.com/document/d/11DjdnHw02vlZ_8Hpuo0PIFSjAXqt8Efvzd76y4tEQqU/edit?usp=sharing "Ling")**
 
 **Setup Project** - After cloning project.
 
